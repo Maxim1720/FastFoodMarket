@@ -1,0 +1,144 @@
+.dish {
+    display: flex;
+    width: 277px;
+    /* height: 428px; */
+    padding: 10px 17px 24px 17px;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    border-radius: 28.868px;
+    background: #2B2B2B;
+
+    /* margin: 0 auto; */
+}
+
+
+
+.img {
+    width: 243px;
+    height: 199px;
+    flex-shrink: 0;
+    border-radius: 32px;
+}
+
+.description {
+    display: flex;
+    width: 249px;
+    padding-top: 6px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 4px 60px;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    
+}
+
+.name {
+    color: #FFF;
+    font-family: Inika;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.price {
+    color: #BCD3AA;
+    text-align: center;
+    font-family: Inika;
+    font-size: 24.967px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    width: 100%;
+}
+
+.description-description-composition {
+    /* flex: 1 0 0; */
+    color: #CECECE;
+    font-family: Inika;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    overflow-wrap: break-word;
+    /* height: 90px; */
+    min-height: 90px;
+    /* overflow-y: scroll; */
+    overflow-anchor:auto;
+
+    .bold {
+        font-weight: 700;
+    }
+
+    
+}
+
+
+.btn {
+    display: flex;
+    /* width: 108.451px; */
+    height: 31.209px;
+    padding: 11.703px 37.451px 11.703px 35.89px;
+    justify-content: center;
+    align-items: center;
+    gap: 7.802px;
+    flex-shrink: 0;
+    border-radius: 10.143px;
+    background: #FFE500;
+    color: #000;
+    font-family: Inika;
+    font-size: 15.604px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.653px;
+}
+
+.btn:hover{
+    /* border: 1px solid white; */
+    /* border-bottom: 1px solid #fff; */
+    /* border-top: 1px solid #000; */
+    /* text-shadow: 1px 0px 12px #fff; */
+    box-shadow: inset 0px 0px 7px #fff;
+}
+
+hr {
+    width: 246px;
+    height: 0.78px;
+    background-color: #000;
+    opacity: 20%;
+    box-shadow: 0px 3px 3px 0px black;
+
+}
+
+
+.update {
+    background-color: #080C33;
+}
+
+.update button {
+    background: #0085FF;
+}
+
+.buy {
+    background-color: #2B2B2B;
+}
+
+.buy button {
+    background-color: #FFE500;
+}
+
+.delete {
+    background-color: #5A1A1A;
+}
+.delete button{
+    background-color: #FF3D00;
+}

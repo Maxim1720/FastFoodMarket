@@ -1,0 +1,30 @@
+@startuml use-case-diagram
+
+actor User as user
+
+usecase "Меню блюд" as menu 
+usecase "Заказы" as orders
+
+usecase "Создание" as creation
+usecase "Редактирование" as edit
+usecase "Удаление" as delete
+usecase "Чтение" as reading
+
+user -left-> creation
+user -right-> edit
+user -down-> delete
+user -up-> reading
+
+(Создание блюд) ..> creation : <<extend>>
+
+user --> menu : Создание блюд
+user --> menu : Просмотр блюд
+user --> menu : Изменение блюд
+user --> menu : Удаление блюд
+
+user --> orders : Создание заказов
+user --> orders : Просмотр заказов
+user --> orders : Изменение статуса заказа
+user --> orders : Удаление заказов
+
+@enduml
